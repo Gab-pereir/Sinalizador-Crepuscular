@@ -1,0 +1,450 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Sinalizador Crepuscular"
+Date ""
+Rev "0"
+Comp "GRUPO 1"
+Comment1 "PRJ230523"
+Comment2 "CE230523A10"
+Comment3 "P230523A10"
+Comment4 "2"
+$EndDescr
+$Comp
+L Logica:CD4093BE CI1
+U 1 1 64970A31
+P 3150 2100
+F 0 "CI1" H 3500 2000 50  0000 L CNB
+F 1 "CD4093BE" H 3850 2450 50  0001 L CNN
+F 2 "DIP:PDIP014N" H 3850 2350 50  0001 L CNN
+F 3 "" H 3050 2150 50  0001 L CNN
+F 4 "Circuito Integrado" H 3850 2250 50  0001 L CNN "Componente"
+F 5 "CD4093BE" H 3450 1900 50  0000 L CNN "Nome"
+F 6 "TI" H 3850 2150 50  0001 L CNN "Fabricante"
+F 7 "CD4093BE" H 3850 2050 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 3850 1950 50  0001 L CNN "Equivalentes"
+F 9 "PDIP14N" H 3850 1850 50  0001 L CNN "Package"
+F 10 "Valor" H 3850 1750 50  0001 L CNN "@Valor"
+	1    3150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logica:CD4093BE CI1
+U 2 1 649736B8
+P 5200 3800
+F 0 "CI1" H 5350 4117 50  0000 C CNB
+F 1 "CD4093BE" H 5900 4150 50  0001 L CNN
+F 2 "DIP:PDIP014N" H 5900 4050 50  0001 L CNN
+F 3 "" H 5100 3850 50  0001 L CNN
+F 4 "Circuito Integrado" H 5900 3950 50  0001 L CNN "Componente"
+F 5 "CD4093BE" H 5350 4026 50  0000 C CNN "Nome"
+F 6 "TI" H 5900 3850 50  0001 L CNN "Fabricante"
+F 7 "CD4093BE" H 5900 3750 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 5900 3650 50  0001 L CNN "Equivalentes"
+F 9 "PDIP14N" H 5900 3550 50  0001 L CNN "Package"
+F 10 "Valor" H 5900 3450 50  0001 L CNN "@Valor"
+	2    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logica:CD4093BE CI1
+U 4 1 649759AA
+P 5250 2200
+F 0 "CI1" H 5350 2500 50  0000 C CNB
+F 1 "CD4093BE" H 5950 2550 50  0001 L CNN
+F 2 "DIP:PDIP014N" H 5950 2450 50  0001 L CNN
+F 3 "" H 5150 2250 50  0001 L CNN
+F 4 "Circuito Integrado" H 5950 2350 50  0001 L CNN "Componente"
+F 5 "CD4093BE" H 5450 2400 50  0000 C CNN "Nome"
+F 6 "TI" H 5950 2250 50  0001 L CNN "Fabricante"
+F 7 "CD4093BE" H 5950 2150 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 5950 2050 50  0001 L CNN "Equivalentes"
+F 9 "PDIP14N" H 5950 1950 50  0001 L CNN "Package"
+F 10 "Valor" H 5950 1850 50  0001 L CNN "@Valor"
+	4    5250 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logica:CD4093BE CI1
+U 3 1 64977A86
+P 14450 9050
+F 0 "CI1" H 14500 9400 50  0000 C CNB
+F 1 "CD4093BE" H 15150 9400 50  0001 L CNN
+F 2 "DIP:PDIP014N" H 15150 9300 50  0001 L CNN
+F 3 "" H 14350 9100 50  0001 L CNN
+F 4 "Circuito Integrado" H 15150 9200 50  0001 L CNN "Componente"
+F 5 "CD4093BE" H 14600 9276 50  0000 C CNN "Nome"
+F 6 "TI" H 15150 9100 50  0001 L CNN "Fabricante"
+F 7 "CD4093BE" H 15150 9000 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 15150 8900 50  0001 L CNN "Equivalentes"
+F 9 "PDIP14N" H 15150 8800 50  0001 L CNN "Package"
+F 10 "Valor" H 15150 8700 50  0001 L CNN "@Valor"
+	3    14450 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conector:BPSC-02(Metaltex-BP) JP1
+U 1 1 6497B29D
+P 2500 2600
+F 0 "JP1" H 2550 2700 50  0000 C CNB
+F 1 "BPSC-02(Metaltex-BP)" H 2500 3450 50  0001 L CNN
+F 2 "Conetores:BPSC-02" H 2500 3550 50  0001 L CNN
+F 3 "" H 2400 2400 50  0001 L CNN
+F 4 "Barra de pinos" H 2500 3350 50  0001 L CNN "Componente"
+F 5 "BPSC-02" H 2658 2724 50  0001 C CNN "Nome"
+F 6 "METALTEX" H 2500 3250 50  0001 L CNN "Fabricante"
+F 7 "BPSC-02" H 2500 3150 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 2500 3050 50  0001 L CNN "Equivalentes"
+F 9 "BPSC" H 2500 2950 50  0001 L CNN "Package"
+F 10 "1A/250VCA" H 2700 2850 50  0001 C CNN "@Valor"
+	1    2500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fonte:GND #PWR0101
+U 1 1 64981993
+P 3250 3100
+F 0 "#PWR0101" H 3400 3100 50  0001 C CNN
+F 1 "GND" H 3250 2950 50  0001 C CNB
+F 2 "" H 2820 3015 50  0001 C CNN
+F 3 "" H 2820 3015 50  0001 C CNN
+	1    3250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor(Filme_de_carbono):CFR12-(5%) R3
+U 1 1 64982CCB
+P 2800 1700
+F 0 "R3" V 2754 1770 50  0000 L CNB
+F 1 "CFR12-(5%)" H 2600 2550 50  0001 L CNN
+F 2 "Resistores:CFR12-(5p)" H 2700 1500 50  0001 L CNN
+F 3 "" H 2700 1500 50  0001 L CNN
+F 4 "Resistor" H 2600 2450 50  0001 L CNN "Componente"
+F 5 "Nome" H 2600 1950 50  0001 L CNN "Nome"
+F 6 "YAGEO" H 2600 2350 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 2600 2250 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 2600 2150 50  0001 L CNN "Equivalentes"
+F 9 "CFR12" H 2600 2050 50  0001 L CNN "Package"
+F 10 "47K" V 2845 1770 50  0000 L CNN "@Valor"
+	1    2800 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitor(Eletrolitico):10uF(25V)-Panasonic(FCA) C1
+U 1 1 64984727
+P 1750 2800
+F 0 "C1" V 1700 2550 50  0000 L CNB
+F 1 "10uF(25V)-Panasonic(FCA)" H 1550 3650 50  0001 L CNN
+F 2 "Capacitores:Capacitor(Eletrolitico)-Radial(4.0x7.0)mm-(Azul_Marinho)" H 1360 2550 50  0001 L CNN
+F 3 "" H 1650 2600 50  0001 L CNN
+F 4 "Capacitor" H 1550 3550 50  0001 L CNN "Componente"
+F 5 "10uF/25V" V 1800 2300 50  0000 L CNN "Nome"
+F 6 "PANASONIC" H 1550 3450 50  0001 L CNN "Fabricante"
+F 7 "EEAFC1E100" H 1550 3350 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 1550 3250 50  0001 L CNN "Equivalentes"
+F 9 "(4.0x7.0)mm" H 1550 3150 50  0001 L CNN "Package"
+F 10 "10uF/25V" H 1550 3050 50  0001 L CNN "@Valor"
+	1    1750 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 3250 3000
+Wire Wire Line
+	3250 3000 3250 3100
+$Comp
+L Resistor(Filme_de_carbono):CFR12-(5%) R4
+U 1 1 649878CD
+P 2150 2400
+F 0 "R4" V 2104 2470 50  0000 L CNB
+F 1 "CFR12-(5%)" H 1950 3250 50  0001 L CNN
+F 2 "Resistores:CFR12-(5p)" H 2050 2200 50  0001 L CNN
+F 3 "" H 2050 2200 50  0001 L CNN
+F 4 "Resistor" H 1950 3150 50  0001 L CNN "Componente"
+F 5 "Nome" H 1950 2650 50  0001 L CNN "Nome"
+F 6 "YAGEO" H 1950 3050 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 1950 2950 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 1950 2850 50  0001 L CNN "Equivalentes"
+F 9 "CFR12" H 1950 2750 50  0001 L CNN "Package"
+F 10 "100K" V 2195 2470 50  0000 L CNN "@Valor"
+	1    2150 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2700 2800 3000
+Wire Wire Line
+	2150 2600 2000 2600
+$Comp
+L Potenciometro:1M-Bourns(3386-F) P2
+U 1 1 6498C4AB
+P 2150 2800
+F 0 "P2" V 2104 2870 50  0000 L CNB
+F 1 "1M-Bourns(3386-F)" H 1950 3650 50  0001 L CNN
+F 2 "Potenciometros:TRIMPOT-Bourns(3386-F)" H 1950 3750 50  0001 L CNN
+F 3 "" H 2050 2600 50  0001 L CNN
+F 4 "Potenciômetro" H 1950 3550 50  0001 L CNN "Componente"
+F 5 "Nome" H 1950 3050 50  0001 L CNN "Nome"
+F 6 "BOURNS" H 1950 3450 50  0001 L CNN "Fabricante"
+F 7 "3386F-1-105" H 1950 3350 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 1950 3250 50  0001 L CNN "Equivalentes"
+F 9 "Bourns(3386F)" H 1950 3150 50  0001 L CNN "Package"
+F 10 "1M" V 2195 2870 50  0000 L CNN "@Valor"
+	1    2150 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 2150 2600
+Wire Wire Line
+	2000 2600 2000 2800
+Wire Wire Line
+	3250 2400 3250 3000
+Wire Wire Line
+	3000 2200 2150 2200
+Wire Wire Line
+	1750 2700 1750 2200
+Wire Wire Line
+	3000 2000 2800 2000
+Wire Wire Line
+	2800 2000 2800 2600
+$Comp
+L Capacitor(Filme_de_poliester):10nF(63V)-TDK(B32529)-(10%) C5
+U 1 1 64998106
+P 3450 1500
+F 0 "C5" H 3500 1700 50  0000 C CNB
+F 1 "10nF(63V)-TDK(B32529)-(10%)" H 3250 2350 50  0001 L CNN
+F 2 "Capacitores:Capacitor(MKT)-TDK(B32529)-(7.3x2.5x6.5)mm" H 3060 1250 50  0001 L CNN
+F 3 "" H 3350 1300 50  0001 L CNN
+F 4 "Capacitor" H 3250 2250 50  0001 L CNN "Componente"
+F 5 "10nF/63V" H 3550 1300 50  0000 C CNN "Nome"
+F 6 "TDK" H 3250 2150 50  0001 L CNN "Fabricante"
+F 7 "B32529C0103K" H 3250 2050 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 3250 1950 50  0001 L CNN "Equivalentes"
+F 9 "TDK(B32529)" H 3250 1850 50  0001 L CNN "Package"
+F 10 "10nF/63V" H 3250 1750 50  0001 L CNN "@Valor"
+	1    3450 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1500 3250 1500
+Connection ~ 2800 3000
+Wire Wire Line
+	2800 3000 3250 3000
+Connection ~ 2150 2200
+Connection ~ 2150 3000
+Wire Wire Line
+	2150 3000 2800 3000
+Wire Wire Line
+	1750 2200 2150 2200
+Wire Wire Line
+	1750 3000 2150 3000
+Wire Wire Line
+	2800 1900 2800 2000
+Connection ~ 2800 2000
+$Comp
+L Conector:BPSC-02(Metaltex-BP) JP2
+U 1 1 6499D328
+P 1850 1750
+F 0 "JP2" H 1900 1850 50  0000 C CNB
+F 1 "BPSC-02(Metaltex-BP)" H 1850 2600 50  0001 L CNN
+F 2 "Conetores:BPSC-02" H 1850 2700 50  0001 L CNN
+F 3 "" H 1750 1550 50  0001 L CNN
+F 4 "Barra de pinos" H 1850 2500 50  0001 L CNN "Componente"
+F 5 "BPSC-02" H 2008 1874 50  0001 C CNN "Nome"
+F 6 "METALTEX" H 1850 2400 50  0001 L CNN "Fabricante"
+F 7 "BPSC-02" H 1850 2300 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 1850 2200 50  0001 L CNN "Equivalentes"
+F 9 "BPSC" H 1850 2100 50  0001 L CNN "Package"
+F 10 "1A/250VCA" H 2050 2000 50  0001 C CNN "@Valor"
+	1    1850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1850 2150 2200
+Wire Wire Line
+	2800 1500 2150 1500
+Wire Wire Line
+	2150 1500 2150 1750
+Connection ~ 2800 1500
+$Comp
+L Fonte:GND #PWR0102
+U 1 1 6499ED86
+P 3650 1500
+F 0 "#PWR0102" H 3800 1500 50  0001 C CNN
+F 1 "GND" H 3650 1350 50  0001 C CNB
+F 2 "" H 3220 1415 50  0001 C CNN
+F 3 "" H 3220 1415 50  0001 C CNN
+	1    3650 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1800 3250 1500
+Wire Wire Line
+	3350 1500 3250 1500
+Connection ~ 3250 1500
+$Comp
+L Fonte:+9.0V #PWR0103
+U 1 1 649A0644
+P 3250 1400
+F 0 "#PWR0103" H 3250 1650 50  0001 C CNN
+F 1 "+9.0V" H 3250 1575 50  0000 C CNB
+F 2 "" H 2820 1315 50  0001 C CNN
+F 3 "" H 2820 1315 50  0001 C CNN
+	1    3250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1400 3250 1500
+Wire Notes Line
+	1150 1100 4050 1100
+Text Notes 2150 3400 2    50   ~ 0
+Sensor de luminosidade
+Wire Notes Line
+	4050 1100 4050 3600
+Wire Notes Line
+	4050 3600 1150 3600
+Wire Notes Line
+	1150 1100 1150 3600
+Wire Wire Line
+	5050 3700 4900 3700
+Wire Wire Line
+	4900 3700 4900 3800
+Wire Wire Line
+	4900 3900 5050 3900
+Wire Wire Line
+	4650 3800 4900 3800
+Connection ~ 4900 3800
+Wire Wire Line
+	4900 3800 4900 3900
+Wire Notes Line
+	4400 3350 6050 3350
+Text Notes 6000 4100 2    50   ~ 0
+Inversor
+Wire Wire Line
+	3600 2100 4650 2100
+$Comp
+L Capacitor(Eletrolitico):220uF(16V)-Panasonic(FCA) C2
+U 1 1 649B1A51
+P 4950 2900
+F 0 "C2" V 4954 3035 50  0000 L CNB
+F 1 "220uF(16V)-Panasonic(FCA)" H 4750 3750 50  0001 L CNN
+F 2 "Capacitores:Capacitor(Eletrolitico)-Radial(8.0x11.5)mm-(Azul_Marinho)" H 4560 2650 50  0001 L CNN
+F 3 "" H 4850 2700 50  0001 L CNN
+F 4 "Capacitor" H 4750 3650 50  0001 L CNN "Componente"
+F 5 "220uF/16V" V 5045 3035 50  0000 L CNN "Nome"
+F 6 "PANASONIC" H 4750 3550 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 4750 3450 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 4750 3350 50  0001 L CNN "Equivalentes"
+F 9 "(8.0x11.5)mm" H 4750 3250 50  0001 L CNN "Package"
+F 10 "220uF/16V" H 4750 3150 50  0001 L CNN "@Valor"
+	1    4950 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Fonte:GND #PWR0104
+U 1 1 649B2871
+P 4950 3100
+F 0 "#PWR0104" H 5100 3100 50  0001 C CNN
+F 1 "GND" H 4950 2950 50  0001 C CNB
+F 2 "" H 4520 3015 50  0001 C CNN
+F 3 "" H 4520 3015 50  0001 C CNN
+	1    4950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Resistor(Filme_de_carbono):CFR12-(5%) R5
+U 1 1 649B3180
+P 5150 2650
+F 0 "R5" H 5150 2443 50  0000 C CNB
+F 1 "CFR12-(5%)" H 4950 3500 50  0001 L CNN
+F 2 "Resistores:CFR12-(5p)" H 5050 2450 50  0001 L CNN
+F 3 "" H 5050 2450 50  0001 L CNN
+F 4 "Resistor" H 4950 3400 50  0001 L CNN "Componente"
+F 5 "Nome" H 4950 2900 50  0001 L CNN "Nome"
+F 6 "YAGEO" H 4950 3300 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 4950 3200 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 4950 3100 50  0001 L CNN "Equivalentes"
+F 9 "CFR12" H 4950 3000 50  0001 L CNN "Package"
+F 10 "2K2" H 5150 2534 50  0000 C CNN "@Valor"
+	1    5150 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Potenciometro:10K-Bourns(3386-F) P1
+U 1 1 649B55ED
+P 5550 2650
+F 0 "P1" H 5550 2765 50  0000 C CNB
+F 1 "10K-Bourns(3386-F)" H 5350 3500 50  0001 L CNN
+F 2 "Potenciometros:TRIMPOT-Bourns(3386-F)" H 5350 3600 50  0001 L CNN
+F 3 "" H 5450 2450 50  0001 L CNN
+F 4 "Potenciômetro" H 5350 3400 50  0001 L CNN "Componente"
+F 5 "Nome" H 5350 2900 50  0001 L CNN "Nome"
+F 6 "BOURNS" H 5350 3300 50  0001 L CNN "Fabricante"
+F 7 "3386F-1-103" H 5350 3200 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 5350 3100 50  0001 L CNN "Equivalentes"
+F 9 "Bourns(3386F)" H 5350 3000 50  0001 L CNN "Package"
+F 10 "10K" H 5550 2856 50  0000 C CNN "@Valor"
+	1    5550 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 2300 4950 2300
+Wire Wire Line
+	4950 2300 4950 2650
+Wire Wire Line
+	4950 2650 4950 2800
+Connection ~ 4950 2650
+Wire Wire Line
+	5550 2500 5550 2450
+Wire Wire Line
+	5550 2450 5350 2450
+Wire Wire Line
+	5350 2450 5350 2650
+Connection ~ 5350 2650
+Wire Wire Line
+	4650 2100 4650 3800
+Connection ~ 4650 2100
+Wire Wire Line
+	4650 2100 5100 2100
+Wire Notes Line
+	4800 1700 4800 3250
+Wire Notes Line
+	4800 3250 6150 3250
+Wire Notes Line
+	6150 3250 6150 1700
+Wire Notes Line
+	6150 1700 4800 1700
+Text Notes 5100 1800 2    39   ~ 0
+ON-OFF
+Text Notes 6050 3150 2    50   ~ 0
+Oscilador
+Wire Notes Line
+	4400 3350 4400 4200
+Wire Notes Line
+	4400 4200 6050 4200
+Wire Notes Line
+	6050 4200 6050 3350
+$Comp
+L Fonte:GND #PWR0105
+U 1 1 649C0101
+P 14050 9150
+F 0 "#PWR0105" H 14200 9150 50  0001 C CNN
+F 1 "GND" H 14050 9000 50  0001 C CNB
+F 2 "" H 13620 9065 50  0001 C CNN
+F 3 "" H 13620 9065 50  0001 C CNN
+	1    14050 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14300 8950 14300 9050
+Wire Wire Line
+	14050 9150 14050 9050
+Wire Wire Line
+	14050 9050 14300 9050
+Connection ~ 14300 9050
+Wire Wire Line
+	14300 9050 14300 9150
+Wire Wire Line
+	5700 2200 5750 2200
+Wire Wire Line
+	5750 2200 5750 2650
+$EndSCHEMATC
