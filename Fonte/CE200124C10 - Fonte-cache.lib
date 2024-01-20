@@ -1,0 +1,208 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CE230523C10---Fonte-rescue_+9.0V-Fonte
+#
+DEF CE230523C10---Fonte-rescue_+9.0V-Fonte #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 250 50 H I C CNN
+F1 "CE230523C10---Fonte-rescue_+9.0V-Fonte" 0 150 50 H V C CNB
+F2 "" -430 -85 50 H I C CNN
+F3 "" -430 -85 50 H I C CNN
+DRAW
+C 0 75 27 0 1 0 N
+P 2 0 1 0 0 0 0 45 N
+X +9.0V 1 0 0 0 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_+VCC-Fonte
+#
+DEF CE230523C10---Fonte-rescue_+VCC-Fonte #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 250 50 H I C CNN
+F1 "CE230523C10---Fonte-rescue_+VCC-Fonte" 0 150 50 H V C CNB
+F2 "" -430 -85 50 H I C CNN
+F3 "" -430 -85 50 H I C CNN
+DRAW
+C 0 75 27 0 1 0 N
+P 2 0 1 0 0 0 0 45 N
+X +VCC 1 0 0 0 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_1000uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico)
+#
+DEF ~CE230523C10---Fonte-rescue_1000uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico) C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNB
+F1 "CE230523C10---Fonte-rescue_1000uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico)" -200 850 50 H I L CNN
+F2 "Capacitores:Capacitor(Eletrolitico)-Radial(10.0x25.0)mm-(Azul_Marinho)" -390 -250 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Capacitor" -200 750 50 H I L CNN "Componente"
+F5 "1000uF/16V" 0 -150 50 H V C CNN "Nome"
+F6 "PANASONIC" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "(10.0x25.0)mm" -200 350 50 H I L CNN "Package"
+F10 "1000uF/16V" -200 250 50 H I L CNN "@Valor"
+DRAW
+A 215 0 171 1482 -1482 0 1 20 N 70 90 70 -90
+P 2 0 1 10 -55 -50 -15 -50 N
+P 2 0 1 10 -35 -30 -35 -70 N
+P 2 0 1 20 0 100 0 -100 N
+P 2 0 1 10 55 0 100 0 N
+X 1 1 -100 0 100 R 50 50 0 0 P
+X 2 2 200 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_1N4007-Diodo(Retificador)
+#
+DEF ~CE230523C10---Fonte-rescue_1N4007-Diodo(Retificador) D 0 40 N N 1 F N
+F0 "D" 0 150 50 H V L CNB
+F1 "CE230523C10---Fonte-rescue_1N4007-Diodo(Retificador)" -200 850 50 H I L CNN
+F2 "Diodos:DO-41(Plastico)" -390 -250 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Diodo" -200 750 50 H I L CNN "Componente"
+F5 "1N4007" -100 -150 50 H V L CNN "Nome"
+F6 "ONSEMI" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "DO-41" -200 350 50 H I L CNN "Package"
+F10 "1A@1000V" -200 250 50 H I L CNN "@Valor"
+DRAW
+P 2 0 1 14 100 70 100 -70 N
+P 4 0 1 0 0 70 0 -70 100 0 0 70 F
+X K 1 200 0 100 L 50 50 0 0 P
+X A 2 -100 0 100 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_47uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico)
+#
+DEF ~CE230523C10---Fonte-rescue_47uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico) C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNB
+F1 "CE230523C10---Fonte-rescue_47uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico)" -200 850 50 H I L CNN
+F2 "Capacitores:Capacitor(Eletrolitico)-Radial(5.0x11.0)mm-(Azul_Marinho)" -390 -250 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Capacitor" -200 750 50 H I L CNN "Componente"
+F5 "47uF/16V" 0 -150 50 H V C CNN "Nome"
+F6 "PANASONIC" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "(5.0x11.0)mm" -200 350 50 H I L CNN "Package"
+F10 "47uF/16V" -200 250 50 H I L CNN "@Valor"
+DRAW
+A 215 0 171 1482 -1482 0 1 20 N 70 90 70 -90
+P 2 0 1 10 -55 -50 -15 -50 N
+P 2 0 1 10 -35 -30 -35 -70 N
+P 2 0 1 20 0 100 0 -100 N
+P 2 0 1 10 55 0 100 0 N
+X 1 1 -100 0 100 R 50 50 0 0 P
+X 2 2 200 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_BR002A(Metaltex-BR0)-Conector
+#
+DEF ~CE230523C10---Fonte-rescue_BR002A(Metaltex-BR0)-Conector CN 0 40 N Y 1 F N
+F0 "CN" 0 100 50 H V L CNB
+F1 "CE230523C10---Fonte-rescue_BR002A(Metaltex-BR0)-Conector" 0 850 50 H I L CNN
+F2 "Conetores:BR002A-(Metaltex-BR0)" 0 950 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Conector" 0 750 50 H I L CNN "Componente"
+F5 "BR002A" 0 -200 50 H V L CNN "Nome"
+F6 "METALTEX" 0 650 50 H I L CNN "Fabricante"
+F7 "BR002A" 0 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" 0 450 50 H I L CNN "Equivalentes"
+F9 "Package" 0 350 50 H I L CNN "Package"
+F10 "16A/250V" 200 250 50 H I C CNN "@Valor"
+DRAW
+S 0 50 200 -150 0 1 0 f
+X 1 1 300 0 100 L 50 50 0 0 P
+X 2 2 300 -100 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_CFR12-(5%)-Resistor(Filme_de_carbono)
+#
+DEF ~CE230523C10---Fonte-rescue_CFR12-(5%)-Resistor(Filme_de_carbono) R 0 40 N N 1 F N
+F0 "R" -100 100 50 H V L CNB
+F1 "CE230523C10---Fonte-rescue_CFR12-(5%)-Resistor(Filme_de_carbono)" -200 850 50 H I L CNN
+F2 "Resistores:CFR12-(5p)" -100 -200 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Resistor" -200 750 50 H I L CNN "Componente"
+F5 "Nome" -200 250 50 H I L CNN "Nome"
+F6 "YAGEO" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "CFR12" -200 350 50 H I L CNN "Package"
+F10 "@Valor" -100 -100 50 H V L CNN "@Valor"
+DRAW
+S -100 40 100 -40 0 1 10 N
+X A 1 -200 0 100 R 50 50 0 0 P
+X B 2 200 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_GND-Fonte
+#
+DEF ~CE230523C10---Fonte-rescue_GND-Fonte #PWR 0 0 N N 1 F P
+F0 "#PWR" 150 0 50 H I C CNN
+F1 "CE230523C10---Fonte-rescue_GND-Fonte" 0 -150 50 H I C CNB
+F2 "" -430 -85 50 H I C CNN
+F3 "" -430 -85 50 H I C CNN
+DRAW
+P 2 0 0 0 -50 -50 50 -50 N
+P 2 0 0 0 -30 -70 30 -70 N
+P 2 0 0 0 -15 -90 15 -90 N
+P 2 0 0 0 0 0 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_Led-Redondo(3.0mm)-Pth-Verde(Difuso)-Led
+#
+DEF ~CE230523C10---Fonte-rescue_Led-Redondo(3.0mm)-Pth-Verde(Difuso)-Led LD 0 40 N N 1 F N
+F0 "LD" 0 150 50 H V L CNB
+F1 "CE230523C10---Fonte-rescue_Led-Redondo(3.0mm)-Pth-Verde(Difuso)-Led" -200 850 50 H I L CNN
+F2 "Leds:Led(Pth)-Redondo(3.0mm)-Verde(Difuso)" -200 950 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Led" -200 750 50 H I L CNN "Componente"
+F5 "Led" -200 250 50 H I L CNN "Nome"
+F6 "*" -200 650 50 H I L CNN "Fabricante"
+F7 "*" -200 550 50 H I L CNN "Part Number"
+F8 "*" -200 450 50 H I L CNN "Equivalentes"
+F9 "Led(3.0mm)" -200 350 50 H I L CNN "Package"
+F10 "Verde" 50 -150 50 H V C CNN "@Valor"
+DRAW
+P 2 0 1 14 100 80 100 -80 N
+P 4 0 1 0 0 70 0 -70 100 0 0 70 F
+P 5 0 1 0 40 60 40 90 35 80 45 80 40 90 N
+P 5 0 1 0 65 45 65 80 60 70 70 70 65 80 N
+X K 1 200 0 100 L 50 50 0 0 P
+X A 2 -100 0 100 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# CE230523C10---Fonte-rescue_MC7808B-(180)-Reguladores(Tensao)
+#
+DEF ~CE230523C10---Fonte-rescue_MC7808B-(180)-Reguladores(Tensao) CI 0 40 N Y 1 F N
+F0 "CI" 0 100 50 H V L CNB
+F1 "CE230523C10---Fonte-rescue_MC7808B-(180)-Reguladores(Tensao)" 0 850 50 H I L CNN
+F2 "TO:TO220-3(180)" -10 960 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Regulador de tensão" 0 750 50 H I L CNN "Componente"
+F5 "MC7808" 0 -300 50 H V L CNN "Nome"
+F6 "ONSEMI" 0 650 50 H I L CNN "Fabricante"
+F7 "MC7808BTG" 0 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" 0 450 50 H I L CNN "Equivalentes"
+F9 "TO220-3" 0 350 50 H I L CNN "Package"
+F10 "8V@1A" 0 250 50 H I L CNN "@Valor"
+DRAW
+S 0 50 400 -250 0 1 0 f
+X VE 1 -100 0 100 R 50 50 0 0 I
+X VS 3 500 0 100 L 50 50 0 0 O
+X GND 2 -100 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

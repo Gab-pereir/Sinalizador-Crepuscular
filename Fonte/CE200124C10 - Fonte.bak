@@ -1,0 +1,329 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "Sinalizador Crepuscular"
+Date ""
+Rev "0"
+Comp "Grupo 1"
+Comment1 "PRJ230523"
+Comment2 "CE230523C10"
+Comment3 "P230523C10"
+Comment4 "2"
+$EndDescr
+$Comp
+L CE230523C10---Fonte-rescue:BR002A(Metaltex-BR0)-Conector CN4
+U 1 1 649894FD
+P 2750 8750
+F 0 "CN4" H 2818 8842 50  0000 C CNB
+F 1 "BR002A(Metaltex-BR0)" H 2750 9600 50  0001 L CNN
+F 2 "Conetores:BR002A-(Metaltex-BR0)" H 2750 9700 50  0001 L CNN
+F 3 "" H 2650 8550 50  0001 L CNN
+F 4 "Conector" H 2750 9500 50  0001 L CNN "Componente"
+F 5 "BR002A" H 2883 8551 50  0000 C CNN "Nome"
+F 6 "METALTEX" H 2750 9400 50  0001 L CNN "Fabricante"
+F 7 "BR002A" H 2750 9300 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 2750 9200 50  0001 L CNN "Equivalentes"
+F 9 "Package" H 2750 9100 50  0001 L CNN "Package"
+F 10 "16A/250V" H 2950 9000 50  0001 C CNN "@Valor"
+	1    2750 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:1N4007-Diodo(Retificador) D3
+U 1 1 6498B493
+P 3400 8400
+F 0 "D3" V 3496 8298 50  0000 R CNB
+F 1 "1N4007" H 3200 9250 50  0001 L CNN
+F 2 "Diodos:DO-41(Plastico)" H 3010 8150 50  0001 L CNN
+F 3 "" H 3300 8200 50  0001 L CNN
+F 4 "Diodo" H 3200 9150 50  0001 L CNN "Componente"
+F 5 "1N4007" V 3405 8298 50  0000 R CNN "Nome"
+F 6 "ONSEMI" H 3200 9050 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 3200 8950 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 3200 8850 50  0001 L CNN "Equivalentes"
+F 9 "DO-41" H 3200 8750 50  0001 L CNN "Package"
+F 10 "1A@1000V" H 3200 8650 50  0001 L CNN "@Valor"
+	1    3400 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:1N4007-Diodo(Retificador) D4
+U 1 1 6498C6C5
+P 4050 8400
+F 0 "D4" V 4146 8298 50  0000 R CNB
+F 1 "1N4007" H 3850 9250 50  0001 L CNN
+F 2 "Diodos:DO-41(Plastico)" H 3660 8150 50  0001 L CNN
+F 3 "" H 3950 8200 50  0001 L CNN
+F 4 "Diodo" H 3850 9150 50  0001 L CNN "Componente"
+F 5 "1N4007" V 4055 8298 50  0000 R CNN "Nome"
+F 6 "ONSEMI" H 3850 9050 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 3850 8950 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 3850 8850 50  0001 L CNN "Equivalentes"
+F 9 "DO-41" H 3850 8750 50  0001 L CNN "Package"
+F 10 "1A@1000V" H 3850 8650 50  0001 L CNN "@Valor"
+	1    4050 8400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:1N4007-Diodo(Retificador) D5
+U 1 1 6498C95F
+P 3400 9350
+F 0 "D5" V 3497 9256 50  0000 R CNB
+F 1 "1N4007" H 3200 10200 50  0001 L CNN
+F 2 "Diodos:DO-41(Plastico)" H 3010 9100 50  0001 L CNN
+F 3 "" H 3300 9150 50  0001 L CNN
+F 4 "Diodo" H 3200 10100 50  0001 L CNN "Componente"
+F 5 "1N4007" V 3407 9259 50  0000 R CNN "Nome"
+F 6 "ONSEMI" H 3200 10000 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 3200 9900 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 3200 9800 50  0001 L CNN "Equivalentes"
+F 9 "DO-41" H 3200 9700 50  0001 L CNN "Package"
+F 10 "1A@1000V" H 3200 9600 50  0001 L CNN "@Valor"
+	1    3400 9350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:1N4007-Diodo(Retificador) D6
+U 1 1 6498CAA5
+P 4050 9350
+F 0 "D6" V 4147 9255 50  0000 R CNB
+F 1 "1N4007" H 3850 10200 50  0001 L CNN
+F 2 "Diodos:DO-41(Plastico)" H 3660 9100 50  0001 L CNN
+F 3 "" H 3950 9150 50  0001 L CNN
+F 4 "Diodo" H 3850 10100 50  0001 L CNN "Componente"
+F 5 "1N4007" V 4060 9260 50  0000 R CNN "Nome"
+F 6 "ONSEMI" H 3850 10000 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 3850 9900 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 3850 9800 50  0001 L CNN "Equivalentes"
+F 9 "DO-41" H 3850 9700 50  0001 L CNN "Package"
+F 10 "1A@1000V" H 3850 9600 50  0001 L CNN "@Valor"
+	1    4050 9350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:1000uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico) C3
+U 1 1 6498D2F1
+P 4700 8700
+F 0 "C3" V 4704 8835 50  0000 L CNB
+F 1 "1000uF(16V)-Panasonic(FCA)" H 4500 9550 50  0001 L CNN
+F 2 "Capacitores:Capacitor(Eletrolitico)-Radial(10.0x25.0)mm-(Azul_Marinho)" H 4310 8450 50  0001 L CNN
+F 3 "" H 4600 8500 50  0001 L CNN
+F 4 "Capacitor" H 4500 9450 50  0001 L CNN "Componente"
+F 5 "1000uF/16V" V 4795 8835 50  0000 L CNN "Nome"
+F 6 "PANASONIC" H 4500 9350 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 4500 9250 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 4500 9150 50  0001 L CNN "Equivalentes"
+F 9 "(10.0x25.0)mm" H 4500 9050 50  0001 L CNN "Package"
+F 10 "1000uF/16V" H 4500 8950 50  0001 L CNN "@Valor"
+	1    4700 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:CFR12-(5%)-Resistor(Filme_de_carbono) R8
+U 1 1 6498EEF9
+P 5500 8500
+F 0 "R8" V 5553 8444 50  0000 R CNB
+F 1 "CFR12-(5%)" H 5300 9350 50  0001 L CNN
+F 2 "Resistores:CFR12-(5p)" H 5400 8300 50  0001 L CNN
+F 3 "" H 5400 8300 50  0001 L CNN
+F 4 "Resistor" H 5300 9250 50  0001 L CNN "Componente"
+F 5 "Nome" H 5300 8750 50  0001 L CNN "Nome"
+F 6 "YAGEO" H 5300 9150 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 5300 9050 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 5300 8950 50  0001 L CNN "Equivalentes"
+F 9 "CFR12" H 5300 8850 50  0001 L CNN "Package"
+F 10 "820" V 5455 8444 50  0000 R CNN "@Valor"
+	1    5500 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:Led-Redondo(3.0mm)-Pth-Verde(Difuso)-Led LD3
+U 1 1 6498F9CA
+P 5500 9100
+F 0 "LD3" V 5500 9200 50  0000 L CNB
+F 1 "Led-Redondo(3.0mm)-Pth-Verde(Difuso)" H 5300 9950 50  0001 L CNN
+F 2 "Leds:Led(Pth)-Redondo(3.0mm)-Verde(Difuso)" H 5300 10050 50  0001 L CNN
+F 3 "" H 5400 8900 50  0001 L CNN
+F 4 "Led" H 5300 9850 50  0001 L CNN "Componente"
+F 5 "Led" H 5300 9350 50  0001 L CNN "Nome"
+F 6 "*" H 5300 9750 50  0001 L CNN "Fabricante"
+F 7 "*" H 5300 9650 50  0001 L CNN "Part Number"
+F 8 "*" H 5300 9550 50  0001 L CNN "Equivalentes"
+F 9 "Led(3.0mm)" H 5300 9450 50  0001 L CNN "Package"
+F 10 "Verde" V 5600 9200 50  0000 L CNN "@Valor"
+	1    5500 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:MC7808B-(180)-Reguladores(Tensao) CI2
+U 1 1 64991A97
+P 6350 8050
+F 0 "CI2" H 6406 8151 50  0000 C CNB
+F 1 "MC7808B-(180)" H 6350 8900 50  0001 L CNN
+F 2 "TO:TO220-3(180)" H 6340 9010 50  0001 L CNN
+F 3 "" H 6250 7850 50  0001 L CNN
+F 4 "Regulador de tensão" H 6350 8800 50  0001 L CNN "Componente"
+F 5 "MC7808AB" H 6540 7750 50  0000 C CNN "Nome"
+F 6 "ONSEMI" H 6350 8700 50  0001 L CNN "Fabricante"
+F 7 "MC7808BTG" H 6350 8600 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 6350 8500 50  0001 L CNN "Equivalentes"
+F 9 "TO220-3" H 6350 8400 50  0001 L CNN "Package"
+F 10 "8V@1A" H 6350 8300 50  0001 L CNN "@Valor"
+	1    6350 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:47uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico) C7
+U 1 1 64992674
+P 7150 8650
+F 0 "C7" V 7100 8800 50  0000 C CNB
+F 1 "47uF(16V)-Panasonic(FCA)" H 6950 9500 50  0001 L CNN
+F 2 "Capacitores:Capacitor(Eletrolitico)-Radial(5.0x11.0)mm-(Azul_Marinho)" H 6760 8400 50  0001 L CNN
+F 3 "" H 7050 8450 50  0001 L CNN
+F 4 "Capacitor" H 6950 9400 50  0001 L CNN "Componente"
+F 5 "47uF/16V" V 7200 8950 50  0000 C CNN "Nome"
+F 6 "PANASONIC" H 6950 9300 50  0001 L CNN "Fabricante"
+F 7 "Part Number" H 6950 9200 50  0001 L CNN "Part Number"
+F 8 "Equivalentes" H 6950 9100 50  0001 L CNN "Equivalentes"
+F 9 "(5.0x11.0)mm" H 6950 9000 50  0001 L CNN "Package"
+F 10 "47uF/16V" H 6950 8900 50  0001 L CNN "@Valor"
+	1    7150 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:+VCC-Fonte #PWR?
+U 1 1 649935E5
+P 4700 7900
+F 0 "#PWR?" H 4700 8150 50  0001 C CNN
+F 1 "+VCC" H 4700 8075 50  0000 C CNB
+F 2 "" H 4270 7815 50  0001 C CNN
+F 3 "" H 4270 7815 50  0001 C CNN
+	1    4700 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:+9.0V-Fonte #PWR?
+U 1 1 64993E43
+P 7600 8050
+F 0 "#PWR?" H 7600 8300 50  0001 C CNN
+F 1 "+9.0V" V 7597 8270 50  0000 C CNB
+F 2 "" H 7170 7965 50  0001 C CNN
+F 3 "" H 7170 7965 50  0001 C CNN
+	1    7600 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:GND-Fonte #PWR?
+U 1 1 64994546
+P 5500 9700
+F 0 "#PWR?" H 5650 9700 50  0001 C CNN
+F 1 "GND" H 5500 9550 50  0001 C CNB
+F 2 "" H 5070 9615 50  0001 C CNN
+F 3 "" H 5070 9615 50  0001 C CNN
+	1    5500 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CE230523C10---Fonte-rescue:GND-Fonte #PWR?
+U 1 1 64994C0A
+P 6100 8400
+F 0 "#PWR?" H 6250 8400 50  0001 C CNN
+F 1 "GND" H 6100 8250 50  0001 C CNB
+F 2 "" H 5670 8315 50  0001 C CNN
+F 3 "" H 5670 8315 50  0001 C CNN
+	1    6100 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 8750 3400 8750
+Wire Wire Line
+	3400 8500 3400 8750
+Wire Wire Line
+	3050 8850 4050 8850
+Wire Wire Line
+	4050 8500 4050 8850
+Wire Wire Line
+	4050 8200 4050 8050
+Wire Wire Line
+	3400 8200 3400 8050
+Wire Wire Line
+	3400 8050 4050 8050
+Wire Wire Line
+	3400 8750 3400 9150
+Connection ~ 3400 8750
+Wire Wire Line
+	4050 8850 4050 9150
+Connection ~ 4050 8850
+Wire Wire Line
+	3400 9450 3400 9700
+Wire Wire Line
+	4050 9700 4050 9450
+Wire Wire Line
+	4050 8050 4700 8050
+Connection ~ 4050 8050
+Wire Wire Line
+	4700 8050 4700 8600
+Wire Wire Line
+	4700 8900 4700 9700
+Wire Wire Line
+	3400 9700 4050 9700
+Connection ~ 4050 9700
+Wire Wire Line
+	4050 9700 4700 9700
+Wire Wire Line
+	4700 9700 5500 9700
+Connection ~ 4700 9700
+Wire Wire Line
+	4700 8050 5500 8050
+Connection ~ 4700 8050
+Wire Wire Line
+	4700 8050 4700 7900
+Wire Wire Line
+	5500 8050 5500 8300
+Wire Wire Line
+	5500 8700 5500 9000
+Wire Wire Line
+	5500 9700 5500 9300
+Connection ~ 5500 9700
+Wire Wire Line
+	5500 8050 6250 8050
+Connection ~ 5500 8050
+Wire Wire Line
+	6250 8250 6100 8250
+Wire Wire Line
+	6100 8250 6100 8400
+Wire Wire Line
+	6850 8050 7150 8050
+Wire Wire Line
+	7150 8050 7150 8550
+Wire Wire Line
+	7150 8850 7150 9700
+Wire Wire Line
+	5500 9700 7150 9700
+Wire Wire Line
+	7150 8050 7600 8050
+Connection ~ 7150 8050
+Wire Notes Line
+	2450 7500 2450 10200
+Wire Notes Line
+	2450 10200 8450 10200
+Wire Notes Line
+	8450 7500 2450 7500
+Wire Notes Line
+	8450 7500 8450 10200
+Text Notes 8200 10150 0    50   ~ 0
+Fonte
+Text Notes 6250 8050 0    50   ~ 0
+1
+Text Notes 6250 8250 0    50   ~ 0
+2\n
+Text Notes 6800 8050 0    50   ~ 0
+3
+Text Notes 6016 8598 0    50   ~ 0
+GND
+Text Notes 5418 9898 0    50   ~ 0
+GND
+$EndSCHEMATC
