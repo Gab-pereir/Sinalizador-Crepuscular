@@ -1,0 +1,248 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PRJ200124---Haste-de-led-rescue_+VCC-Fonte
+#
+DEF PRJ200124---Haste-de-led-rescue_+VCC-Fonte #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 250 50 H I C CNN
+F1 "PRJ200124---Haste-de-led-rescue_+VCC-Fonte" 0 150 50 H V C CNB
+F2 "" -430 -85 50 H I C CNN
+F3 "" -430 -85 50 H I C CNN
+DRAW
+C 0 75 27 0 1 0 N
+P 2 0 1 0 0 0 0 45 N
+X +VCC 1 0 0 0 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_100uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico)
+#
+DEF ~PRJ200124---Haste-de-led-rescue_100uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico) C 0 40 N N 1 F N
+F0 "C" 0 150 50 H V C CNB
+F1 "PRJ200124---Haste-de-led-rescue_100uF(16V)-Panasonic(FCA)-Capacitor(Eletrolitico)" -200 850 50 H I L CNN
+F2 "Capacitores:Capacitor(Eletrolitico)-Radial(6.3x11.0)mm-(Azul_Marinho)" -390 -250 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Capacitor" -200 750 50 H I L CNN "Componente"
+F5 "100uF/16V" 0 -150 50 H V C CNN "Nome"
+F6 "PANASONIC" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "(6.3x11.2)mm" -200 350 50 H I L CNN "Package"
+F10 "100uF/16V" -200 250 50 H I L CNN "@Valor"
+DRAW
+A 215 0 171 1482 -1482 0 1 20 N 70 90 70 -90
+P 2 0 1 10 -55 -50 -15 -50 N
+P 2 0 1 10 -35 -30 -35 -70 N
+P 2 0 1 20 0 100 0 -100 N
+P 2 0 1 10 55 0 100 0 N
+X 1 1 -100 0 100 R 50 50 0 0 P
+X 2 2 200 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_10nF(63V)-TDK(B32529)-(10%)-Capacitor(Filme_de_poliester)
+#
+DEF ~PRJ200124---Haste-de-led-rescue_10nF(63V)-TDK(B32529)-(10%)-Capacitor(Filme_de_poliester) C 0 40 N N 1 F N
+F0 "C" 50 150 50 H V C CNB
+F1 "PRJ200124---Haste-de-led-rescue_10nF(63V)-TDK(B32529)-(10%)-Capacitor(Filme_de_poliester)" -200 850 50 H I L CNN
+F2 "Capacitores:Capacitor(MKT)-TDK(B32529)-(7.3x2.5x6.5)mm" -390 -250 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Capacitor" -200 750 50 H I L CNN "Componente"
+F5 "10nF/63V" 0 -150 50 H V C CNN "Nome"
+F6 "TDK" -200 650 50 H I L CNN "Fabricante"
+F7 "B32529C0103K" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "TDK(B32529)" -200 350 50 H I L CNN "Package"
+F10 "10nF/63V" -200 250 50 H I L CNN "@Valor"
+DRAW
+P 2 0 1 10 20 0 0 0 N
+P 2 0 1 20 20 100 20 -100 N
+P 2 0 1 10 80 0 100 0 N
+P 2 0 1 20 80 100 80 -100 N
+X 1 1 -100 0 100 R 50 50 0 0 P
+X 2 2 200 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_1N4148-Diodo(Retificador)
+#
+DEF ~PRJ200124---Haste-de-led-rescue_1N4148-Diodo(Retificador) D 0 40 N N 1 F N
+F0 "D" 0 150 50 H V L CNB
+F1 "PRJ200124---Haste-de-led-rescue_1N4148-Diodo(Retificador)" -200 850 50 H I L CNN
+F2 "Diodos:DO-35(Vidro-Vermelho)" -390 -250 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Diodo" -200 750 50 H I L CNN "Componente"
+F5 "1N4148" -100 -150 50 H V L CNN "Nome"
+F6 "ONSEMI" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "DO-35" -200 350 50 H I L CNN "Package"
+F10 "200mA@100V" -200 250 50 H I L CNN "@Valor"
+DRAW
+P 2 0 1 14 100 70 100 -70 N
+P 4 0 1 0 0 70 0 -70 100 0 0 70 F
+X K 1 200 0 100 L 50 50 0 0 P
+X A 2 -100 0 100 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_BC337-Transistor(BJ)
+#
+DEF ~PRJ200124---Haste-de-led-rescue_BC337-Transistor(BJ) Q 0 40 N N 1 F N
+F0 "Q" 150 50 50 H V L CNB
+F1 "PRJ200124---Haste-de-led-rescue_BC337-Transistor(BJ)" -900 950 50 H I L CNN
+F2 "TO:TO92-3(Bent-Lead)" -910 1060 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Transistor" -900 850 50 H I L CNN "Componente"
+F5 "BC337" 150 -50 50 H V L CNN "Nome"
+F6 "ONSEMI" -900 750 50 H I L CNN "Fabricante"
+F7 "BC337" -900 650 50 H I L CNN "Part Number"
+F8 "Equivalentes" -900 550 50 H I L CNN "Equivalentes"
+F9 "TO92-3" -900 450 50 H I L CNN "Package"
+F10 "45V@625mW" -900 350 50 H I L CNN "@Valor"
+DRAW
+P 2 0 1 0 0 100 0 -100 N
+P 3 0 1 0 100 100 0 0 100 -100 N
+P 4 0 1 0 74 -50 50 -74 84 -84 74 -50 F
+X C 1 100 200 100 D 50 50 0 0 P
+X B 2 -100 0 100 R 50 50 0 0 P
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_BPSC-01(Metaltex-BP)-Conector
+#
+DEF ~PRJ200124---Haste-de-led-rescue_BPSC-01(Metaltex-BP)-Conector CN 0 40 N Y 1 F N
+F0 "CN" 0 100 50 H V L CNB
+F1 "PRJ200124---Haste-de-led-rescue_BPSC-01(Metaltex-BP)-Conector" 0 850 50 H I L CNN
+F2 "Conetores:BPSC-01" 0 950 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Barra de pinos" 0 750 50 H I L CNN "Componente"
+F5 "BPSC-01" 0 -100 50 H V L CNN "Nome"
+F6 "METALTEX" 0 650 50 H I L CNN "Fabricante"
+F7 "BPSC-01" 0 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" 0 450 50 H I L CNN "Equivalentes"
+F9 "BPSC" 0 350 50 H I L CNN "Package"
+F10 "1A/250VCA" 200 250 50 H I C CNN "@Valor"
+DRAW
+S 0 50 200 -50 0 1 0 f
+X 1 1 300 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_BPSC-02(Metaltex-BP)-Conector
+#
+DEF ~PRJ200124---Haste-de-led-rescue_BPSC-02(Metaltex-BP)-Conector CN 0 40 N Y 1 F N
+F0 "CN" 0 100 50 H V L CNB
+F1 "PRJ200124---Haste-de-led-rescue_BPSC-02(Metaltex-BP)-Conector" 0 850 50 H I L CNN
+F2 "Conetores:BPSC-02" 0 950 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Barra de pinos" 0 750 50 H I L CNN "Componente"
+F5 "BPSC-02" 0 -200 50 H V L CNN "Nome"
+F6 "METALTEX" 0 650 50 H I L CNN "Fabricante"
+F7 "BPSC-02" 0 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" 0 450 50 H I L CNN "Equivalentes"
+F9 "BPSC" 0 350 50 H I L CNN "Package"
+F10 "1A/250VCA" 200 250 50 H I C CNN "@Valor"
+DRAW
+S 0 50 200 -150 0 1 0 f
+X 1 1 300 0 100 L 50 50 0 0 P
+X 2 2 300 -100 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_CD4017BE-Logica
+#
+DEF ~PRJ200124---Haste-de-led-rescue_CD4017BE-Logica CI? 0 40 Y Y 1 F N
+F0 "CI?" 0 50 50 H V L CNN
+F1 "PRJ200124---Haste-de-led-rescue_CD4017BE-Logica" 0 1050 50 H I L CNN
+F2 "DIP:PDIP016N" 0 950 50 H I L CNN
+F3 "" -650 295 50 H I L CNN
+F4 "Circuito Integrado" 0 850 50 H I L CNN "Componente"
+F5 "4017" 0 -1200 50 H V L CNN "Nome"
+F6 "TI" 0 750 50 H I L CNN "Fabricante"
+F7 "CD4017BE" 0 650 50 H I L CNN "Part Number"
+F8 "Equivalentes" 0 550 50 H I L CNN "Equivalentes"
+F9 "PDIP16N" 0 450 50 H I L CNN "Package"
+F10 "Valor" 0 350 50 H I L CNN "@Valor"
+DRAW
+S 0 0 600 -1150 0 1 0 f
+X Q5 1 750 -600 150 L 50 50 0 0 O
+X Q4 10 750 -500 150 L 50 50 0 0 O
+X Q9 11 750 -1000 150 L 50 50 0 0 O
+X Cout 12 750 -1100 150 L 50 50 0 0 O
+X CP1 13 -150 -1100 150 R 50 50 0 0 I C
+X CP0 14 -150 -1000 150 R 50 50 0 0 I C
+X RST 15 -150 -900 150 R 50 50 0 0 I
+X VDD 16 -150 -100 150 R 50 50 0 0 W
+X Q1 2 750 -200 150 L 50 50 0 0 O
+X Q6 5 750 -700 150 L 50 50 0 0 O
+X Q7 6 750 -800 150 L 50 50 0 0 O
+X Q3 7 750 -400 150 L 50 50 0 0 O
+X Q8 9 750 -900 150 L 50 50 0 0 O
+X Q0 3 750 -100 150 L 50 50 1 1 O
+X Q2 4 750 -300 150 L 50 50 1 1 O
+X VSS 8 -150 -300 150 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_CFR12-(5%)-Resistor(Filme_de_carbono)
+#
+DEF ~PRJ200124---Haste-de-led-rescue_CFR12-(5%)-Resistor(Filme_de_carbono) R 0 40 N N 1 F N
+F0 "R" -100 100 50 H V L CNB
+F1 "PRJ200124---Haste-de-led-rescue_CFR12-(5%)-Resistor(Filme_de_carbono)" -200 850 50 H I L CNN
+F2 "Resistores:CFR12-(5p)" -100 -200 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Resistor" -200 750 50 H I L CNN "Componente"
+F5 "Nome" -200 250 50 H I L CNN "Nome"
+F6 "YAGEO" -200 650 50 H I L CNN "Fabricante"
+F7 "Part Number" -200 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" -200 450 50 H I L CNN "Equivalentes"
+F9 "CFR12" -200 350 50 H I L CNN "Package"
+F10 "@Valor" -100 -100 50 H V L CNN "@Valor"
+DRAW
+S -100 40 100 -40 0 1 10 N
+X A 1 -200 0 100 R 50 50 0 0 P
+X B 2 200 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_GND-Fonte
+#
+DEF ~PRJ200124---Haste-de-led-rescue_GND-Fonte #PWR 0 0 N N 1 F P
+F0 "#PWR" 150 0 50 H I C CNN
+F1 "PRJ200124---Haste-de-led-rescue_GND-Fonte" 0 -150 50 H I C CNB
+F2 "" -430 -85 50 H I C CNN
+F3 "" -430 -85 50 H I C CNN
+DRAW
+P 2 0 0 0 -50 -50 50 -50 N
+P 2 0 0 0 -30 -70 30 -70 N
+P 2 0 0 0 -15 -90 15 -90 N
+P 2 0 0 0 0 0 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# PRJ200124---Haste-de-led-rescue_LM317BTG(180)-Reguladores(Tensao)
+#
+DEF ~PRJ200124---Haste-de-led-rescue_LM317BTG(180)-Reguladores(Tensao) CI 0 40 N Y 1 F N
+F0 "CI" 0 100 50 H V L CNB
+F1 "PRJ200124---Haste-de-led-rescue_LM317BTG(180)-Reguladores(Tensao)" 0 850 50 H I L CNN
+F2 "TO:TO220-3(180)" -10 960 50 H I L CNN
+F3 "" -100 -200 50 H I L CNN
+F4 "Regulador de tensão" 0 750 50 H I L CNN "Componente"
+F5 "LM317" 0 -300 50 H V L CNN "Nome"
+F6 "ONSEMI" 0 650 50 H I L CNN "Fabricante"
+F7 "LM317BTG" 0 550 50 H I L CNN "Part Number"
+F8 "Equivalentes" 0 450 50 H I L CNN "Equivalentes"
+F9 "TO220-3" 0 350 50 H I L CNN "Package"
+F10 "ADJ@1.5A" 0 250 50 H I L CNN "@Valor"
+DRAW
+S 0 50 400 -250 0 1 0 f
+X VS 2 500 0 100 L 50 50 0 0 O
+X VE 3 -100 0 100 R 50 50 0 0 I
+X ADJ 1 -100 -200 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

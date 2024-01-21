@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name Capacitores)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Capacitores.pretty")(options "")(descr ""))
+  (lib (name Chaves&Botoes)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Chaves&Botoes.pretty")(options "")(descr ""))
+  (lib (name Conetores)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Conetores.pretty")(options "")(descr ""))
+  (lib (name Diodos)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Diodos.pretty")(options "")(descr ""))
+  (lib (name DIP)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/DIP.pretty")(options "")(descr ""))
+  (lib (name Leds)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Leds.pretty")(options "")(descr ""))
+  (lib (name Potenciometros)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Potenciometros.pretty")(options "")(descr ""))
+  (lib (name Reles)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Reles.pretty")(options "")(descr ""))
+  (lib (name Resistores)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/Resistores.pretty")(options "")(descr ""))
+  (lib (name TO)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints/TO.pretty")(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri "Z:/MPPP/Library(5.1.12)/Libraries/Library(5.1.12)/Footprints")(options "")(descr ""))
+)
